@@ -11,6 +11,7 @@
         <vm:MainWindowViewModel/>
     </Window.DataContext>
     <Grid>
-
+        <Frame NavigationUIVisibility="Hidden"
+               Content="{Binding FrameSource.Value}"/>
     </Grid>
 </Window>
